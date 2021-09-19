@@ -11,4 +11,4 @@
 | %fs mv /FileStore/path/arquivo /FireStore/path/arquivo2 | Renomear um arquivo |
 | %fs rm /FileStore/path/arquivo | Remove o arquivo |
 | fs rm -r /FileStore/path/ | Remove uma pasta |
-| %%bash find /path - name "*.csv | grep 'fai*.*' |
+| "%%bash find /path - name "*.csv | grep 'fai*.*'" | Realiza uma busca na pasta /path por arquivos .csv |
